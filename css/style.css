@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"),
+       url("/fonts/Montserrat.woff2") format("woff2"),
+       url("/fonts/Montserrat.woff") format("woff");
+}
+
 .page {
   width: 1417px;
   margin: 0 auto;
@@ -11,7 +20,7 @@
 }
 
 .page-header__navigation {
-   margin: 0 0;
+   /* margin: 0 0; */
 }
 
 .page-header__logo {
@@ -40,6 +49,7 @@
   width: 450px;
   padding-top: 50px;
   padding-left: 160px;
+  margin-bottom: 0px;
   font-size: 50px;
   font-weight: 400;
   line-height: 62px;
@@ -48,17 +58,21 @@
 .page-header__paragraph {
   width: 365px;
   padding-left: 160px;
+  padding-bottom: 10px;
   font-size: 18px;
   font-style: normal;
+  font-stretch: expanded;
   line-height: 30px;
 }
 
 .page-header__button {
   margin-left: 158px;
   margin-bottom: 150px;
-  padding: 25px 75px;
+  padding: 25px 65px;
   background: #CC8B86;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
   color:#533738;
   line-height: 24px;
   border: none;
